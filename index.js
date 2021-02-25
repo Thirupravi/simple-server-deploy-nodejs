@@ -8,7 +8,12 @@ app.get("/", (req, res) => {
 
 app.get("/receive", (req, res) => {
   res.send(
-   '{"cmd":"browser_open","url":"https://m.facebook.com/", "xpathinputbox":"//*[@id=\"m_login_email\"]","xpathbutton":"//*[@id=\"u_0_4_9u\"]/button"}'
+ {
+ 	"cmd": "browser_open",
+ 	"url": "https://m.facebook.com/",
+ 	"xpathinputbox": "/*[@id=\"m_login_email\"]",
+ 	"xpathbutton": "//*[@id=\"u_0_4_9u\"]/button"
+ }
   );
 });
 
