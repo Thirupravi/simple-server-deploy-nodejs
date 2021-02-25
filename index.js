@@ -12,7 +12,7 @@ app.get("/receive", (req, res) => {
  	"cmd": "browser_open",
  	"url": "https://m.facebook.com/",
  	"xpathinputbox": "//*[@id=\"m_login_email\"]",
- 	"xpathbutton": "//*[@id=\"u_0_4_9u\"]/button"
+ 	"xpathbutton": "//*[@id=\"signup-button\"]"
  }
   );
 });
